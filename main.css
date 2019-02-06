@@ -7,7 +7,6 @@ body {
 }
 
 table {
-  width: 428px;
   border: 10px solid black;
   background: black;
 }
@@ -18,11 +17,11 @@ tr {
 }
 
 td {
-  width: 100px;
+  width: 20vw;
+  height: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
   margin: 1px;
   background: white;
   font-size: 1.5em;
@@ -40,9 +39,10 @@ button {
 .hint {
   margin-top: 16px;
   opacity: 0;
-  transition: .3s opacity ease;
+  transition: 0.3s opacity ease;
 }
 
 .hint.active {
   opacity: 1;
 }
+
